@@ -1,5 +1,5 @@
 # DonateCovid 
- Donate for Covid App.
+ Donate for Covid React App.
 
 # Contributors :construction_worker:
 
