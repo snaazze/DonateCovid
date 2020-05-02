@@ -16,6 +16,7 @@ class App extends Component {
                 <Link to="/Symptoms">Symptoms</Link>
                 <Link to="/Spreads">How it spreads ?</Link>
                 <Link to="/Pnt">Prevention & Treatment</Link>
+                <Link to="/Donation">Donation Link</Link>
             </Navigation>
         </Header>
         <Drawer title="Donate COVID">
@@ -24,6 +25,7 @@ class App extends Component {
                 <Link to="/Symptoms">Symptoms</Link>
                 <Link to="/Spreads">How it spreads ?</Link>
                 <Link to="/Pnt">Prevention & Treatment</Link>
+                <Link to="/Donation">Donation Link</Link>
             </Navigation>
         </Drawer>
         <Content>
