@@ -17,12 +17,11 @@ class Landing extends Component {
   			<p>Let’s support organisations working on the ground to provide COVID-19 relief and aid! Contribute to any of the fundraisers to support India’s fight against the coronavirus and help the less privileged during this lockdown. </p>
   			<p>This WebApp is made to ease your access for donating to the genuine organisations all over India. Just login and support the noble cause </p>
   			</div>
-			  
-  		</Cell>  
+
+  		</Cell>
   		</Grid>
   			
   		</div>
-		  
   		)
   }
 }
