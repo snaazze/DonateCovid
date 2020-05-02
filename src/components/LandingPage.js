@@ -1,10 +1,28 @@
 import React, { Component } from 'react';
+import { Grid , Cell } from 'react-mdl';
 class Landing extends Component {
   render() {
   	return (
-  		<div>
-  			<h1> Landing page</h1>
+  		<div style ={{width :'100%', margin:'auto'}}>
+  		<Grid className="landing-grid">
+  		<Cell col ={12}>
+  		<img
+  			src="http://www.pngmart.com/files/12/COVID-19-Virus-PNG-Transparent-Image.png"
+  			alt="avatar"
+  			className="avatar-img"
+  			/>
+  			<div className="banner-text">
+  			<h1>Donate for COVID-19</h1>
+  			<hr/>
+  			<p>Let’s support organisations working on the ground to provide COVID-19 relief and aid! Contribute to any of the fundraisers to support India’s fight against the coronavirus and help the less privileged during this lockdown. </p>
+  			<p>This WebApp is made to ease your access for donating to the genuine organisations all over India. Just login and support the noble cause </p>
+  			</div>
+			  
+  		</Cell>  
+  		</Grid>
+  			
   		</div>
+		  
   		)
   }
 }
