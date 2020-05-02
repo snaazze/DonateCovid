@@ -1,0 +1,148 @@
+
+  .heading
+  {
+    font-size: 3rem;
+    font-family: 'Exo 2' , sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  .heading2
+  {
+    text-align: center;
+    margin: 0 20%;
+    font-family: 'Exo 2' , sans-serif;
+    font-size: 1.2rem;
+  }
+
+/* scrollbar */
+#box::-webkit-scrollbar
+{
+    width: 0px;
+}
+#box::-webkit-scrollbar-thumb
+{
+    background-color: #948f8f;
+}
+#box::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); /* background color of scrollbar */
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  }
+/* box CSS */
+
+.mainstate
+{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 7% 10%;
+}
+.box
+{
+    height: 220px;
+    width: 280px;
+    flex-grow: 1;
+    margin: 10px 20px 40px 20px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    transition: 0.3s;
+    overflow-y: scroll;
+    background-color: lightblue;
+}
+
+.box p
+{
+  font-size: 1.5rem;
+}
+.box a
+{
+  color: inherit;
+    text-decoration: none;
+}
+.box p:hover
+{
+    transition: 0.2s;
+    margin-left: 10px;
+}
+
+.color1 {
+  color: #9843AC;
+  background-color: #C592D1;
+}
+
+.color1:hover {
+  box-shadow: 10px 10px 0px #9843AC;
+}
+.color2 {
+    color: #cc585e;
+    background-color: #f4a0a5;
+  }
+  
+  .color2:hover {
+    box-shadow: 10px 10px 0px #cc585e;
+  }
+  .color3 {
+    color: #5271c1;
+    background-color: #9eb1e1;
+  }
+  
+  .color3:hover {
+    box-shadow: 10px 10px 0px #5271c1;
+  }
+
+  .color4 {
+    color: #69b42f;
+    background-color: #bbe19e;
+  }
+  
+  .color4:hover {
+    box-shadow: 10px 10px 0px #69b42f;
+  }
+  .color5 {
+    color: #E78B36;
+    background-color: #FFBB7C;
+  }
+  
+  .color5:hover {
+    box-shadow: 10px 10px 0px #E78B36;
+  }
+  .color6 {
+    color: #4598b3;
+    background-color: #9ed1e1;
+  }
+  
+  .color6:hover {
+    box-shadow: 10px 10px 0px #4598b3;
+  }
+  .color7 {
+    color: #B1BF05;
+    background-color: #EAF473;
+  }
+  
+  .color7:hover {
+    box-shadow: 10px 10px 0px #B1BF05;
+  }
+  .color8 {
+    color: #deba04;
+    background-color: #f8e16b;
+  }
+  
+  .color8:hover {
+    box-shadow: 10px 10px 0px #c4a400;
+  }
+
+  @media (max-width: 790px)
+  {
+    .flex
+    {
+      margin: 5%;
+    }
+    .box
+    {
+      margin: 5% 5%;
+    }
+  }

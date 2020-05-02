@@ -9,12 +9,14 @@ class App extends Component {
     return (
    <div className="demo-big-content">
     <Layout>
-        <Header title="Donate COVID" scroll>
+        <Header className="header-color" title={<Link style={{textDecoration:'none', color:'white'}}
+        to="/">Donate COVID</Link>} scroll>
             <Navigation>
                 <Link to="/Covid">What is COVID-19 ?</Link>
                 <Link to="/Symptoms">Symptoms</Link>
                 <Link to="/Spreads">How it spreads ?</Link>
                 <Link to="/Pnt">Prevention & Treatment</Link>
+                <Link to="/Donation">Donation Link</Link>
             </Navigation>
         </Header>
         <Drawer title="Donate COVID">
@@ -23,6 +25,7 @@ class App extends Component {
                 <Link to="/Symptoms">Symptoms</Link>
                 <Link to="/Spreads">How it spreads ?</Link>
                 <Link to="/Pnt">Prevention & Treatment</Link>
+                <Link to="/Donation">Donation Link</Link>
             </Navigation>
         </Drawer>
         <Content>
