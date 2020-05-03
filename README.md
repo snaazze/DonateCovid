@@ -1,5 +1,5 @@
 # DonateCovid 
- Donate for Covid React App.
+ DonateCovid is a React App made to search for trustworthy NGO and Fundraisers all across India. Deployed using heroku
 
 # Contributors :construction_worker:
 
