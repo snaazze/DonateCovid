@@ -10,6 +10,7 @@ class Landing extends Component {
   			src="http://www.pngmart.com/files/12/COVID-19-Virus-PNG-Transparent-Image.png"
   			alt="avatar"
   			className="avatar-img"
+        class="center"
   			/>
   			<div className="banner-text">
   			<h1>Donate for COVID-19</h1>
