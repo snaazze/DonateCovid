@@ -19,7 +19,8 @@ class App extends Component {
                             <Link to="/Donation">Donation Link</Link>
                         </Navigation>
                     </Header>
-                    <Drawer title="Donate COVID">
+                    <Drawer className="header-color" title={<Link style={{textDecoration:'none', color:'black'}}
+            to="/">Donate COVID</Link>} scroll>
                         <Navigation>
                             <Link to="/Covid">What is COVID-19 ?</Link>
                             <Link to="/Symptoms">Symptoms</Link>
