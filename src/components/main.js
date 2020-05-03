@@ -5,6 +5,7 @@ import Covid from './Covid.js';
 import Pnt from './Pnt.js'
 import Spreads from './Spreads.js'
 import Symptoms from './Symptoms.js'
+import Donation from './Donation.js';
 const Main =() => (
 	<Switch>
 	<Route exact path="/" component ={LandingPage} />
@@ -12,7 +13,7 @@ const Main =() => (
 	<Route path ="/Spreads" component={Spreads} />
 	<Route path ="/Pnt" component={Pnt} />
 	<Route path ="/Symptoms" component={Symptoms} />
-
+	<Route path ="/Donation" component={Donation} />
 
 
 
