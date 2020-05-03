@@ -8,10 +8,11 @@ function CardsSearch(props) {
         return (
             <div className="flex" id="box">
  
-                    <div className="box color1" id="box">
-                        <h2 className="mainstate">Andhra Pradesh</h2>
-                        <p><a href="https://apcmrf.ap.gov.in/" target="blank">Chief Minister's Relief Fund</a></p>
-                    </div>
+ <div class="box color1" id="box">
+             <h2 className="mainstate">Andhra Pradesh</h2>
+             <p><a href="https://apcmrf.ap.gov.in/" target="blank">Chief Minister's Relief Fund</a></p>
+             <p><a href="https://www.akshayapatra.org/covid-relief-services" target="blank">Akshaya Patra Food Relief (Available in several states) </a></p>
+         </div>
                 </div>
             
         )
@@ -21,10 +22,11 @@ function CardsSearch(props) {
         return (
             <div className="flex" id="box">
 
-                     <div class="box color2" id="box">
-                        <h2 className="mainstate">Arunachal Pradesh</h2>
-                        <p><a href="http://covid19.itanagarsmartcity.in/" target="blank">Arunachal Pradesh State Control Room</a></p>
-                    </div>
+<div class="box color2" id="box">
+             <h2 className="mainstate">Arunachal Pradesh</h2>
+             <p><a href="http://covid19.itanagarsmartcity.in/" target="blank">Arunachal Pradesh State Control Room</a></p>
+              <p><a href="http://mcksfood.com/" target="blank">MCKS Food for the Hungry Foundation</a></p>
+         </div>
                 </div>
                 )
     }
@@ -33,11 +35,12 @@ function CardsSearch(props) {
         return (
             <div className="flex" id="box">
 
-                <div className="box color3" id="box">
-                    <h2 className="mainstate">Assam</h2>
-                    <p><a href="https://nhm.assam.gov.in/portlets/join-us-to-fight-covid-19" target="blank">Government of
-              Assam</a></p>
-                </div>
+<div class="box color3" id="box">
+             <h2 className="mainstate">Assam</h2>
+             <p><a href="https://nhm.assam.gov.in/portlets/join-us-to-fight-covid-19" target="blank">Government of Assam</a></p>   
+             <p><a href="https://kashtakaripanchayat.org" target="blank">Kashtakari Panchayat</a></p>
+
+         </div>
             </div>
         )
     }
@@ -45,11 +48,12 @@ function CardsSearch(props) {
         return (
             <div className="flex" id="box">
 
-                <div className="box color4" id="box">
-                    <h2 className="mainstate">Bihar</h2>
-                    <p><a href="http://www.cmrf.bih.nic.in/users/home.aspx" target="blank">Chief Minister
-             Relief Fund</a></p>
-                </div>
+<div class="box color4" id="box">
+             <h2 className="mainstate">Bihar</h2>
+             <p><a href="http://www.cmrf.bih.nic.in/users/home.aspx" target="blank">Chief Minister Relief Fund</a></p>
+             <p><a href="https://www.careindia.org/covid-19/" target="blank">Care India</a></p>
+             <p><a href="http://www.chikkafederation.org/index.php?ref=home" target="blank">Chikka Federation of India</a></p>
+         </div>
             </div>
         )
     }
@@ -57,10 +61,11 @@ function CardsSearch(props) {
         return (
             <div className="flex" id="box">
 
-                <div className="box color5" id="box">
-                    <h2 className="mainstate">Chhattisgarh</h2>
-                    <p><a href="http://cmrf.cg.gov.in/" target="blank">Chief Minister Relief Fund</a></p>
-                </div>
+<div class="box color5" id="box">
+             <h2 className="mainstate">Chhattisgarh</h2>
+             <p><a href="http://cmrf.cg.gov.in/" target="blank">Chief Minister Relief Fund</a></p>
+             <p><a href="https://samarthan.org/" target="blank">Samarthan</a></p>
+         </div>
             </div>
         )
     }
@@ -68,10 +73,10 @@ function CardsSearch(props) {
         return (
             <div className="flex" id="box">
 
-                <div className="box color6" id="box">
-                    <h2 className="mainstate">Goa</h2>
-                    <p><a href="https://www.goa.gov.in/covid-19/" target="blank">Official Chief Minister Website</a></p>
-                </div>
+<div class="box color6" id="box">
+             <h2 className="mainstate">Goa</h2>
+             <p><a href="https://www.goa.gov.in/covid-19/" target="blank">Official Chief Minister Website</a></p>
+         </div>
 
             </div>
         )
@@ -80,10 +85,11 @@ function CardsSearch(props) {
         return (
             <div className="flex" id="box">
 
-                <div className="box color7" id="box">
-                    <h2 className="mainstate">Gujarat</h2>
-                    <p><a href="https://cmogujarat.gov.in/en/cmrf/" target="blank">Gujarat CMO</a></p>
-                </div>
+<div class="box color7" id="box">
+             <h2 className="mainstate">Gujarat</h2>
+             <p><a href="https://cmogujarat.gov.in/en/cmrf/" target="blank">Gujarat CMO</a></p>
+             <p><a href="https://saath.org/" target="blank">Saath</a></p>
+         </div>
             </div>
         )
     }
@@ -94,6 +100,8 @@ function CardsSearch(props) {
                 <div className="box color8" id="box">
                     <h2 className="mainstate">Haryana</h2>
                     <p><a href="https://panipat.gov.in/notice_category/covid-19/" target="blank">Haryana Corona Relief Fund</a></p>
+                    <p><a href="http://www.clothesboxfoundation.org/covid19" target="blank">Clothes Box Foundation</a></p>
+
                 </div>
             </div>
         )
@@ -106,6 +114,8 @@ function CardsSearch(props) {
                     <h2 className="mainstate">Himachal Pradesh</h2>
                     <p><a href="https://cmhimachal.nic.in/index.php/donation/individual" target="blank">Chief Minister
              Relief Fund </a></p>
+             <p><a href="http://www.17000ft.org/" target="blank">17000 Ft </a></p>
+
                 </div>
             </div>
         )
@@ -118,6 +128,8 @@ function CardsSearch(props) {
                 <div className="box color2" id="box">
                     <h2 className="mainstate">Jharkhand</h2>
                     <p><a href="https://ranchi.nic.in/covid/" target="blank">Jharkhand Sahayata </a></p>
+                    <p><a href="http://janjagrankendra.org/donate.html" target="blank">Jan Jagran Kendra </a></p>
+
                 </div>
             </div>
         )
@@ -131,6 +143,8 @@ function CardsSearch(props) {
                     <h2 className="mainstate">Karnataka</h2>
                     <p><a href="https://serviceonline.gov.in/karnataka/renderApplicationForm.do;jsessionid=79C6CA4D4C8797EBCE08224EB2EFE5E1?serviceId=10770003&UUID=53c90b12-83ce-4557-9a80-367b2bde5dcd&grievDefined=0&serviceLinkRequired=No&directService=true&userLoggedIn=N&tempId=4791&source=CTZN&OWASP_CSRFTOKEN=KBEV-3OBD-7JK7-L3K0-FDWE-6A58-ZI1Q-QLRR" target="blank">
                         Official Link to Donate for COVID-19</a></p>
+                        <p><a href="https://www.riseagainsthungerindia.org/" target="blank">Rise Against Hunger</a></p>
+             <p><a href="https://gubbachi.org.in/" target="blank">Gubacchi - Learning to Fly</a></p>
                 </div>
             </div>
         )
@@ -168,6 +182,11 @@ function CardsSearch(props) {
                     <h2 className="mainstate">Maharashtra</h2>
                     <p><a href="https://cmrf.maharashtra.gov.in/CMRFCitizen/DonationOnlineForm.action" target="blank">
                         Chief Minister Relief Fund</a></p>
+                        
+             <p><a href="http://www.khushiyaanfoundation.org/" target="blank">Khushiyaan Foundation</a></p>
+             <p><a href="https://www.unitedwaymumbai.org/" target="blank">United Way</a></p>
+             <p><a href="https://www.ketto.org/fundraiser/support-our-kachra-vechaks-in-the-covid-times?payment=form" target="blank">Ketto Fundraiser</a></p>
+             <p><a href="https://www.unitedwaymumbai.org/" target="blank">United Way</a></p>
                 </div>
             </div>
         )
@@ -233,6 +252,8 @@ function CardsSearch(props) {
                 <div className="box color2" id="box">
                     <h2 className="mainstate">Uttarakhand</h2>
                     <p><a href="https://cmrf.uk.gov.in/" target="blank">UKCMRF</a></p>
+                    <p><a href="https://indiafightscorona.giveindia.org/?utm_source=subs_homepage_desktop" target="blank">Give India</a></p>
+              <p><a href="https://www.charitnation.org/corona-impact" target="blank">Charitnation</a></p>
                 </div>
             </div>
         )
@@ -244,6 +265,8 @@ function CardsSearch(props) {
                 <div className="box color3" id="box">
                     <h2 className="mainstate">Uttar Pradesh</h2>
                     <p><a href="https://rahat.up.nic.in/upcovidcarefund.aspx" target="blank">COVID CARE FUND</a></p>
+                    <p><a href="https://www.saathire.com/PIG/uttishtha-foundation/" target="blank">Uttishtha Foundation </a></p>
+
                 </div>
             </div>
         )
@@ -255,6 +278,8 @@ function CardsSearch(props) {
                 <div className="box color4" id="box">
                     <h2 className="mainstate">West Bengal</h2>
                     <p><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Serf.pdf" target="blank">West Bengal State Emergency Relief Fund </a></p>
+                    <p><a href="http://bhavishyabharat.in/" target="blank">Bhavishya Bharat</a></p>
+               <p><a href="https://www.desirovation.com/covid-help" target="blank">DesirOvation </a></p>
                 </div>
             </div>
         )
@@ -266,6 +291,8 @@ function CardsSearch(props) {
                 <div className="box color8" id="box">
                     <h2 className="mainstate">Telagana</h2>
                     <p><a href="https://telangana.gov.in/cm-relief-fund" target="blank">Chief Minister Relief Fund</a></p>
+                    <p><a href="http://bhavishyabharat.in/" target="blank">Bhavishya Bharat</a></p>
+             <p><a href="https://pages.razorpay.com/Covid19Relief" target="blank">Safa Society</a></p>
                 </div>
             </div>
         )
@@ -277,6 +304,8 @@ function CardsSearch(props) {
                 <div className="box color7" id="box">
                     <h2 className="mainstate">Tamil Nadu</h2>
                     <p><a href="https://ereceipt.tn.gov.in/cmprf/Cmprf" target="blank">CM's Public Relief Fund</a></p>
+                    <p><a href="https://www.fueladream.com/home/campaign/21583" target="blank">Fuel a Dream</a></p>
+
                 </div>
             </div>
         )
@@ -288,6 +317,8 @@ function CardsSearch(props) {
                 <div className="box color6" id="box">
                     <h2 className="mainstate">Sikkim</h2>
                     <p><a href="https://www.covid19sikkim.org/" target="blank">Sikkim COVID-19 Centralized Information System</a></p>
+                    <p><a href="http://bhavishyabharat.in/" target="blank">Bhavishya Bharat</a></p>
+
                 </div>
             </div>
         )
@@ -301,6 +332,8 @@ function CardsSearch(props) {
                     <h2 className="mainstate">Rajasthan</h2>
                     <p><a href="http://cmrelief.rajasthan.gov.in/Covid-19.aspx" target="blank">
                         Rajasthan CMRF Covid-19 Mitigation Fund</a></p>
+                        <p><a href="https://www.feedingindia.org/" target="blank">Zomato Feeding India</a></p>
+              <p><a href="https://www.barefootcollege.org/donate/?cc=inr&utm_campaign=dmCOVID19" target="blank">BareFoot College</a></p>
                 </div>
             </div>
         )
@@ -322,6 +355,8 @@ function CardsSearch(props) {
             <div className="box color3" id="box">
                 <h2 className="mainstate">Orissa</h2>
                 <p><a href="https://cmrfodisha.gov.in/" target="blank">Chief Minister Relief Fund</a></p>
+                <p><a href="https://www.nydhee.org/donate_now.html#menu1" target="blank">NYDHEE</a></p>
+
             </div>
         </div>
         )
