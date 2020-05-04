@@ -7,7 +7,7 @@ class Landing extends Component {
   		<Grid className="landing-grid">
   		<Cell col ={12}>
   		<img
-  			src="http://www.pngmart.com/files/12/COVID-19-Virus-PNG-Transparent-Image.png"
+  			src="http://www.pngmart.com/files/11/Donate-Charity-Transparent-Background.png"
   			alt="avatar"
   			className="avatar-img"
         class="center"
