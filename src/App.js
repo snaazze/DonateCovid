@@ -17,6 +17,7 @@ class App extends Component {
                 <Link to="/Symptoms">Symptoms</Link>
                 <Link to="/Spreads">How it spreads ?</Link>
                 <Link to="/Pnt">Prevention & Treatment</Link>
+                <Link to="/formapp">Share a Donation Link </Link>
               
             </Navigation>
         </Header>
@@ -28,6 +29,7 @@ class App extends Component {
                 <Link to="/Symptoms">Symptoms</Link>
                 <Link to="/Spreads">How it spreads ?</Link>
                 <Link to="/Pnt">Prevention & Treatment</Link>
+                <Link to="/formapp">Share a Donation Link </Link>
                 
             </Navigation>
         </Drawer>
