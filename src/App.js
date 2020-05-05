@@ -37,6 +37,8 @@ class App extends Component {
             <div className="page-content" />
             <Main/>
         </Content>
+                <footer style={{ textAlign: "center", backgroundColor: "black", padding: "2rem", color: "white" }}>Made with ❤️ by <a href="https://www.linkedin.com/in/karan-wagh-130263181/"
+                    target="_blank" style={{ color: "#FE6A6B" }}><i className="fas fa-code-branch"></i>Karan</a>, <a href="https://www.linkedin.com/in/muhib-shaikh-b9b63914b/" target="_blank" style={{ color: "#FE6A6B" }}>Muhib</a> and <a href="https://www.linkedin.com/in/malhar37" target="_blank" style={{ color: "#FE6A6B" }}>Malhar</a>.</footer>
     </Layout>
 </div>
     
