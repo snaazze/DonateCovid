@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Form, Input, Label, FormGroup, FormFeedback, Button } from 'reactstrap';
 import "../Cards/Styles/Cards.css";
+import fire from './fire';
 class Register extends Component{
 
 	constructor(props){
@@ -47,6 +48,8 @@ class Register extends Component{
 			if (Object.keys(errors).length === 0) {
             console.log(data);
             //Call an api here
+            let datacollected = fire.database().ref('dataSet');
+            fire.database().ref('dataSet').push(data);
             //Resetting the form
             this.setState(this.getInitialState());
         } else {
